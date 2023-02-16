@@ -16,20 +16,23 @@
 .intro
 {
     color: blue;
+    font-size: small;
 }
 #gif
 {
     border: 3px solid blue;
+    margin: 0;
     padding: 0;
-    width: 771px;
-    height: 195px;
     border-radius: 12px;
-    transform: scaleX(1.65);
+    transform: scalex(1.2);
     filter: brightness(120%);
+    width: 80%;
+    height:auto
+
 }
 #figure1
 {
-    font-size: small;
+    font-size: xx-small;
 }
 h1
 {
@@ -59,10 +62,10 @@ h1
 #self-image
 {
     float: right;
-    background-color: aqua;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
     filter: contrast(110%);
 }
 #annotation
@@ -72,11 +75,15 @@ h1
 }
 #figure2
 {
-    font-size: small;
+    font-size: xx-small;
     text-align: center;
     color: #808080;
 }
 
+textarea
+{
+    width: 80%;
+}
 #submit:hover
 {
     cursor: pointer;
@@ -115,7 +122,7 @@ h1
 footer
 {
     text-align: center;
-    font-size: small;
+    font-size: xx-small;
     color: #808080;
 }
 
