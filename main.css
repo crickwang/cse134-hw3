@@ -3,7 +3,7 @@
     background-color: #c5c5c5;
     font-family: Arial, Helvetica, sans-serif;
 }
-.head
+#head
 {
     display: flex;
     flex-direction: column;
@@ -77,7 +77,6 @@ h2:hover
 #self-image
 {
     background-color: aqua;
-    float: right;
     border-radius: 50%;
     max-width: 300px;
     width: 100%;
@@ -89,11 +88,15 @@ h2:hover
     color: red !important;
     font-size: xx-large !important;
 }
-#figure2
+#text2
 {
     font-size: xx-small;
-    text-align: center;
     color: #808080;
+}
+#figure2
+{
+    float: right;
+    text-align: center;
 }
 
 textarea
