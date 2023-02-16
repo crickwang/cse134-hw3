@@ -1,7 +1,7 @@
 *
 {
     background-color: #c5c5c5;
-    font-style: Arial;
+    font-style: arial;
     font-family: Arial, Helvetica, sans-serif;
 }
 .head
@@ -57,7 +57,7 @@ h1
 h2:hover
 {
     color: red;
-    size: 4em;
+    font: 3em;
 }
 .text
 {
