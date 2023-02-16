@@ -54,13 +54,30 @@ h1
         color: rgb(0, 0, 255);
     }
 }
+h2:hover
+{
+    color: red;
+    size: 4em;
+}
 .text
 {
     display: flex;
     flex-direction: row;
 }
+
+#text-100
+{
+    font-size: small;
+}
+
+#text-150B
+{
+    font-size: small;
+}
+
 #self-image
 {
+    background-color: aqua;
     float: right;
     border-radius: 50%;
     max-width: 300px;
